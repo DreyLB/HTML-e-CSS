@@ -41,6 +41,12 @@ p {
     justify-items: center;
 }
 
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+}
 
 .menu a {
     color: black;
@@ -49,6 +55,7 @@ p {
     border-radius: 5px;
     text-transform: uppercase;
     border: 2px solid #fff;
+    
 }
 
 .menu a:hover {
@@ -111,11 +118,11 @@ p {
     border-left: 4px solid transparent;
 }
 
-.vantagens-itens:hover{
+.vantagens-itens:hover {
     border-left: 4px solid #e21;
 }
 
-.posicao{
+.posicao {
     grid-row: 2/2;
     grid-column: 2/2;
 }
